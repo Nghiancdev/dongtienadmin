@@ -1,0 +1,67 @@
+.image-expired {
+    width: 320px;
+    height: 210px;
+}
+
+.expire {
+    background: #fff;
+    overflow: hidden;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+}
+
+.expire .main {
+    width: 700px;
+    margin: 161px auto 0;
+    min-height: 310px;
+    position: relative;
+    z-index: 1;
+}
+
+.expire h1 {
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+.expire h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 15px;
+}
+
+.expire p {
+    margin: 0;
+    padding: 0;
+}
+
+.expire .main-l {
+    width: 280px;
+    font-size: 14px;
+    color: #666;
+    line-height: 18px;
+    font-weight: normal;
+    /* padding-top: 60px; */
+}
+
+.expire .main-r {
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.expire-bg {
+    background: #e5e6e7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 404px;
+    z-index: 0;
+}
+
+.expire .txtRed {
+    color: #f30303;
+}
