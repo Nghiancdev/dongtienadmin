@@ -1,7 +1,7 @@
 {
   "name": "sahashop",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^18.0.0",
     "@ckeditor/ckeditor5-build-decoupled-document": "^20.0.0",
@@ -86,8 +86,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
-    "buildWindow": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
